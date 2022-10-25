@@ -153,3 +153,24 @@ h2>h1 {
     text-align: center;
 }
 /* end of homepage */
+
+    /* Start Contact Page */
+    .contact {
+        position: relative;
+    }
+    .contactSec {
+        display: flex;
+        flex-direction: column;
+        justify-content: stretch;
+        border: 1px solid #f00;
+
+    }
+    .contactSec h1 {
+        border: 1px solid #f00;
+    }
+    .subSection {
+        display: flex;            
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #f00;
+    }
