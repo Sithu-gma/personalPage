@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior:smooth;
+}
+body {
+    
+    transition :all .8s ease-in;
+    background-color: #343a41;
+}
+.main {
+    background-color: aliceblue;
+    width: 80%;
+    height: 90vh;
+    border-bottom: 2px solid #ddd;
+    margin: 0 auto;
+}
+/* start menu bar */
+.menu {
+    width: 100%;
+    height: 60px;
+    background-color: azure;
+    line-height: 60px;
+    display: flex;
+    justify-content:stretch;
+    margin: 0 auto;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+.menu h3 {
+    
+
+}
+.menu>.menuLeft1, .menu>.menuRight1 {
+    width: 10%;
+    background-color: #343a41;
+}
+.menu>.menuLeft, .menu>.menuRight {
+    /* opacity: .8; */
+    width: 40%;
+    background-color: #343a41;
+    color: #ddd;
+    list-style: none;
+    
+}
+.menuRight {
+    align-self:end;
+}
+ul li a{
+    text-decoration: none;
+    color: azure;
+    font-weight: bolder;
+    text-align: center;
+    /* border: 1px solid #ddd; */
+    
+    margin: 5px;
+    padding: 5px; 
+}
+ul li a:visited {
+    border-bottom:3px solid #ddd;
+    transition: all .3s ease-out;
+}
+
+.menu ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    list-style: none;
+    
+}
+.menu li{
+    /* width: 120px;     */
+           
+}
+
+.contact {
+    background-color: burlywood;
+}
+.service {
+    background-color: gainsboro;
+}
+.about {
+    background-color: darkslategrey;
+}
+.main {
+    /* position: relative; */
+}
+/* .main>h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    opacity: .5;
+} */
+
+/* line end  menu bar */
+
+/* start home page */
+.home {
+    background-color: azure;
+    position: relative;
+
+}
+.section {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 20%;
+    border: 1px solid red;
+}
+.homeLeft{
+    width: 50%;
+    /* background-color: #ddd; */
+    /* position: relative; */
+    /* height: 100%; */
+    /* border: 5px solid #343a41; */
+    display: flex;
+    justify-content: end;
+    border-right: 1px solid #f00;
+
+}
+.img{
+    width: 100%;
+    
+
+}
+/* color dimgray,cadetblue */
+.homeRight {
+    width: 50%;
+    background-color: azure;    
+    
+}
+
+.homeLeft img{
+    /* border: 1px solid red;     */
+    text-align: center;   
+}
+
+div.layout {    
+
+    padding: 15px;
+    color: darkcyan;
+    
+}
+h2>h1 {
+    text-align: center;
+}
+/* end of homepage */
