@@ -8,6 +8,9 @@
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/svg-with-js.min.css">
+        <style>
+            
+        </style>
 </head>
 <body>
     <div class="container">
@@ -20,7 +23,7 @@
             </div>
             <div class="menuRight">
                 <ul>
-                    <li><a href="#home"><i class="fas fa-home"></i>HOME</a></li>
+                    <li><a href="#home">HOME</a></li>
                     <li><a href="#info">INFO</a></li>
                     <li><a href="#contact">CONTACT</a></li>
                     <li><a href="#service">SERVICES</a></li>
@@ -43,7 +46,7 @@
                     
                     <div class="layout">
                         <h1>Hello, Welcome to My Page.</h1>
-                        <h2>I'm Sithu Kyaw</h2>
+                        <h2>I'm Sithu Kyaw<span id="txtName"></span></h2>
                         
                         <br>
                         <i>Based on YANGON</i>
@@ -70,36 +73,43 @@
         <!-- start contact page -->
         <div id="contact" class="main contact">
             <h1>Contact</h1>
-            <div class="section contactSec">
+            <div class="section contactSec sectionRow">
                 <div class="subSection contactUp">
-                    <h1>GET IN TOUCH</h1>
+                    <h2>GET IN TOUCH</h2>
                 </div>
                 <div class="subSection contactDown">
-                    <div class="email subSec">
-                        <span>&#64;</span>
-                        <i class="fa-regular fa-map"></i>
-                        <i>ADDRESS</i>
-                    </div>
-
-                    <div class="address subSec">
-                        <span>&#9993;</span>
-                        <i class="fa-thin fa-house"></i>
-                        <i>EMAIL</i>                        
+                 
+                    <div class="email subSec">                    
+                        <i class="fas fa-at"></i>
+                        <br>
+                        <span>EMAIL</span>    
+                        <p class="contactText">                            
+                        <a href="#contact"
+                        title="Touch button and to Copy "
+                        id="contactEmail">sithu.gma@gmail.com</a>
+                        </p>                    
                     </div>
 
                     <div class="phone subSec">
-                        <span>&#9990;</span>
-                        <i class="fa-solid fa-house"></i>
-                        <i>PHONE</i>
+                        <i class="fas fa-mobile-alt"></i>
+                        <br>
+                        <span>PHONE</span>
+                        <p class="contactText">
+                            <a href="tel:+959420251258" title="Touch button and phone Call">09420251298</a>
+                        </p>
                     </div>
+
+                    <div class="address subSec">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <br>
+                        <span>ADDRESS</span>
+                        <p class="contactText">
+                            No.323/B-5, 5th st, 1st Qtr, Ma Yan Gone Tsp;
+                        </p>
+                    </div>
+
                     
-                    <div class="social subSec">
-                        
-                       <span>
-                        <i class="fas fa-home"></i>
-                       </span> 
-                        <i>SOCIAL MEDIA</i>
-                    </div>
+                    
                 </div>
             </div>
         </div>
@@ -108,6 +118,140 @@
         </div>
         <div id="about" class="main about">
             <h1>About</h1>
+            <div class="section sectionCol">
+                <div class="subSectionCol aboutUp">
+                    <div class="subAbout1 subSub flex-col">
+                        <div class="subAboutRow">
+                            <h3>My Skill</h3>
+                        </div>
+                        <div class="subAboutRow">
+                            <div class="progress-box ">
+                                <div class="progress-meta">
+                                    <span class="title">HTML</span>
+                                    <span class="value">65%</span>
+                                </div>
+                                <div class="progress-bg">
+                                    <div class="progress-bar html-bg"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="subAboutRow">
+                            <div class="progress-box">
+                                <div class="progress-meta">
+                                    <span class="title">CSS</span>
+                                    <span class="value">65%</span>
+                                </div>
+                                <div class="progress-bg">
+                                    <div class="progress-bar css-bg"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="subAboutRow">
+                            <div class="progress-box">
+                                <div class="progress-meta">
+                                    <span class="title">JavaScript</span>
+                                    <span class="value">55%</span>
+                                </div>
+                                <div class="progress-bg">
+                                    <div class="progress-bar js-bg"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="subAboutRow">
+                            <div class="progress-box">
+                                <div class="progress-meta">
+                                    <span class="title">PHP</span>
+                                    <span class="value">40%</span>
+                                </div>
+                                <div class="progress-bg">
+                                    <div class="progress-bar php-bg"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="subAbout2 subSub flex-col">
+                        <div class="subAboutRow">
+                            <h3>My Detail </h3>
+                        </div>
+                        <div class="subAboutRow">
+                            <p>I am graduated ( BA. ECO )</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                 Minima suscipit culpa eligendi sapiente sint similique?</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                 Maiores excepturi accusantium vero, qui quo possimus!</p>
+                        </div>
+                       
+
+                    </div>
+                    <div class="subAbout3 subSub flex-col">
+                        <div class="subAboutRow">
+                            <h3>Applied Techs For My Website.</h3>
+                        </div><br>
+                        <div class="subAboutRow mainBox">
+                            <div class="box">
+                                <i class="fab fa-html5"></i>
+                                <h6>HTML 5</h6>
+                            </div>
+                            <div class="box">
+                                <i class="fab fa-css3-alt"></i>
+                                <h6>CSS 3</h6>
+                            </div>
+                            <div class="box">
+                                <i class="fab fa-node-js"></i>
+                                <h6>JavaScript</h6>
+                            </div>
+                            <div class="box">
+                                <i class="fab fa-font-awesome-flag"></i>
+                                <h6>Font Awesome</h6>
+                            </div>
+                            <div class="box">
+                                <i class="fab fa-github"></i>
+                                <h6>Github</h6>
+                            </div>
+                            <div class="box">
+                                <i class="fab fa-google"></i>
+                                <h6>Google</h6>
+                            </div>
+                            <div class="box">
+                                <i class="fab fa-chrome"></i>
+                                <h6>Chrome</h6>
+                            </div>
+                            
+                            <div class="box">
+                                <i class="fab fa-youtube"></i>
+                                <h6> Youtube</h6>
+                            </div>
+                            <div class="box">
+                                <i class="fab fa-firefox"></i>
+                                <h6>Firefox</h6>
+                                <h6></h6>
+                            </div>
+                            <div class="box">
+                                <i class="fab fa-stack-overflow"></i>
+                                <h6>Stack Overflow</h6>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="subAbout4 subSub">
+                        <h3>THIS SITE APPLIES TEXT EDITOR</h3>
+                    </div>
+                </div>
+                <div class="subSectionCol aboutDown">
+                    <div class="subAbout5">
+                        <h2></h2>
+                    </div>
+
+                </div>
+                <!-- <div class="subSection sub3">
+
+                </div> -->
+                <!-- <h1>This Website use following tech and webpage</h1> -->
+            </div>
         </div>
         <div class="main footer">
              <h1>Footer</h1>   
@@ -116,6 +260,8 @@
     </div>
     <script src="script.js"></script>
     <script>
+
+        // start menu change icon
         const menuTag=document.querySelectorAll("li>a");
         const txtTag=document.querySelector('#text');
 
