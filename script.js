@@ -25,7 +25,7 @@ contactEmailTag.addEventListener('click',()=> navigator.clipboard.writeText('sit
 //start About Page
 let boxTag=document.querySelectorAll('.box');
 boxTag.forEach((j)=>{
-  j.addEventListener('hover', () => {
+  j.addEventListener('click', () => {
     console.log( j);
     j.classList.add('selected');
     setTimeout(()=>{
