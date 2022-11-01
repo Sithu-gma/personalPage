@@ -131,14 +131,15 @@ ul li a:visited {
     border: 1px solid red;
 }
 .homeLeft{
-    width: 45%;
-    background-color: #ddd;
+    width: 50%;
+    /* background-color: #ddd; */
     opacity: .5s;
     /* position: relative; */
     /* height: 100%; */
     /* border: 5px solid #343a41; */
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
+    align-items: center;
     border-right: 1px solid #f00;
 
 }
@@ -149,20 +150,55 @@ ul li a:visited {
 } */
 /* color dimgray,cadetblue */
 .homeRight {
-    width: 55%;
+    width: 50%;
     background-color: azure;    
-    
 }
+ .homeRight p .btn {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding:8px 10px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    }
+    .socialLogo {
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        justify-self: flex-start;
+        padding-left: 20px;       
+        
+    }
+    .socialLogo a{
+        padding-bottom: 20px;
+        text-decoration: none;
+        font-weight: bolder;
+        color: #343a41;
+    }
+    .socialLogo a i{
+    color: royalblue;
+    }
+    
+    /* Darker background on mouse-over */
+    .homeRight p .btn:hover {
+    background-color: RoyalBlue;
+    }
+
+
 
 .homeLeft img{
     /* border: 1px solid red;     */
-    text-align: center;   
+    /* text-align: center;    */
 }
 
 div.layout {    
 
     padding: 15px;
-    color: darkcyan;
+    color: royalblue;
     
 }
 #txtName {
