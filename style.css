@@ -177,7 +177,6 @@ ul li a:visited {
         padding-bottom: 20px;
         text-decoration: none;
         font-weight: bolder;
-        color: #343a41;
     }
     .socialLogo a i{
     color: royalblue;
@@ -185,7 +184,7 @@ ul li a:visited {
     
     /* Darker background on mouse-over */
     .homeRight p .btn:hover {
-    background-color: RoyalBlue;
+    background-color: dodgerblue;
     }
 
 
@@ -198,7 +197,7 @@ ul li a:visited {
 div.layout {    
 
     padding: 15px;
-    color: royalblue;
+    color: #343a41;
     
 }
 #txtName {
@@ -426,9 +425,56 @@ h2>h1 {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    align-items: flex-start;
     padding: 0 10px;
    }
-   .serviceTag {
-    width: 50%;
+   .card-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
    }
+   .card {
+    width:600px;
+    height: 300px;
+    border-radius: 5px;
+    box-shadow: 0px 30px 40px -20px var(--grayishBlue);
+    padding: 30px;
+    margin: 20px;  
+   }
+   :root {
+    --red: hsl(0, 78%, 62%);
+    --cyan: hsl(180, 62%, 55%);
+    --orange: hsl(34, 97%, 64%);
+    --blue: hsl(212, 86%, 64%);
+    --varyDarkBlue: hsl(234, 12%, 34%);
+    --grayishBlue: hsl(229, 6%, 66%);
+    --veryLightGray: hsl(0, 0%, 98%);
+    --weight1: 200;
+    --weight2: 400;
+    --weight3: 600;
+}
+   .cyanColor {
+    border-top: 3px solid var(--cyan);
+    }
+    .redColor {
+        border-top: 3px solid var(--red);
+    }
+    .blueColor {
+        border-top: 3px solid var(--blue);
+    }
+    .orangeColor {
+        border-top: 3px solid var(--orange);
+    }
+
+    .card h6 {
+        color: var(--varyDarkBlue);
+        font-weight: var(--weight1);
+        /* margin: 0 8px; */
+    }
+    .card p {
+        /* color: var(--grayishBlue); */
+        color:#343a41;
+        font-size: small;
+    }
 
